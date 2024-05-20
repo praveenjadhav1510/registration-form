@@ -1,0 +1,40 @@
+body, form {
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    color: white;
+    place-items: center;
+    font-family: Consolas, monospace;
+}
+table {
+    width: 330px;
+    background-image: url(image.jpg);
+    padding: 20px;
+    border-radius: 20px;
+}
+th {
+    width: 150px;
+}
+
+.inp {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0px; 
+    border: none;
+    outline: none;
+}
+.grid {
+    display: grid;
+}
+textarea {
+    border: 0px;
+    width: 150px;
+    border-radius: 5px;
+    outline: none;
+}
+.submit {
+    background: #2dffaf;
+    border: 0px;
+    border-radius: 15px;
+}
